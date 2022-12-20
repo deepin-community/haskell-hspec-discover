@@ -1,0 +1,137 @@
+haskell-hspec-discover (2.7.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:39:03 +0800
+
+haskell-hspec-discover (2.7.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 18:14:01 -0400
+
+haskell-hspec-discover (2.6.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 27 Jul 2019 15:20:17 -0400
+
+haskell-hspec-discover (2.5.5-1) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 11:18:59 +0300
+
+haskell-hspec-discover (2.4.8-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 16:13:28 -0400
+
+haskell-hspec-discover (2.4.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Sun, 03 Sep 2017 13:50:08 -0700
+
+haskell-hspec-discover (2.4.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Wed, 05 Jul 2017 21:42:22 -0400
+
+haskell-hspec-discover (2.2.4-3) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:34:16 -0400
+
+haskell-hspec-discover (2.2.4-2) experimental; urgency=medium
+
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Thu, 13 Oct 2016 19:19:06 -0400
+
+haskell-hspec-discover (2.2.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Thu, 29 Sep 2016 11:15:54 -0400
+
+haskell-hspec-discover (2.2.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 29 May 2016 12:14:52 +0200
+
+haskell-hspec-discover (2.2.2-1) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 24 May 2016 22:44:43 -0400
+
+haskell-hspec-discover (2.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sun, 10 Jan 2016 22:22:09 -0500
+
+haskell-hspec-discover (2.1.10-2) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:54:36 -0500
+
+haskell-hspec-discover (2.1.10-1) experimental; urgency=medium
+
+  * New upstream release
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:27:52 +0200
+
+haskell-hspec-discover (2.1.7-1) unstable; urgency=medium
+
+  * debian/copyright: debian/*, not */debian
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 29 Jun 2015 11:27:20 +0200
+
+haskell-hspec-discover (2.1.5-3) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:50:39 +0200
+
+haskell-hspec-discover (2.1.5-2) experimental; urgency=medium
+
+  * Fix debian/copyright syntax
+  * Add Breaks+Replaces relation on haskell-hspec (Closes: #783155)
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 23 Apr 2015 09:10:23 +0200
+
+haskell-hspec-discover (2.1.5-1) experimental; urgency=low
+
+  * Initial release
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 17 Apr 2015 09:47:03 +0200
